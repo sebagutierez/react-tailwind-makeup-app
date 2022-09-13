@@ -1,17 +1,20 @@
-import Main from "./layouts/Main";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./layouts/Main";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Search from "./pages/Search";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />}></Route>
-          <Route index element={<Main />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />}>
+          <Route path="home" element={<Home />}>
+            <Route path="about" element={<About />} />
+            <Route path="search" element={<Search />} />
+          </Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
