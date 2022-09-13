@@ -1,6 +1,6 @@
 ## REACT TAILWIND MAKEUP APP
 
-This is a project following the code written by DanaScript for a make-up website using the following:
+This is a project following the code written by (https://github.com/danascript) for a make-up website using the following:
 
 - React Js
 - TailwindCss v3.1.8
