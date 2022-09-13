@@ -6,7 +6,7 @@ const Footer = () => {
   const links = ["about", "skincare", "makeup", "supplements", "contact"];
   return (
     <footer className="flex justify-between px-4 py-4 bg-dark text-light">
-      <BrandLink classes="text-yellow font-krona text-2xl" />
+      <BrandLink classes="text-yellow" />
 
       <div className="flex items-center">
         {links.map((link) => (

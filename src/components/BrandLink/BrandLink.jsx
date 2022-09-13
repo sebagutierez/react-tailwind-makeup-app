@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // props classes
 const BrandLink = ({ classes }) => (
-  <a className={`text-2xl front-krona ${classes}`} href="/">
+  <Link to="/" className={`text-2xl font-krona ${classes}`}>
     Brand
-  </a>
+  </Link>
 );
 
 export default BrandLink;
