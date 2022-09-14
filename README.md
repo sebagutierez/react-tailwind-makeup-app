@@ -9,6 +9,7 @@ This is a project following the code written by (https://github.com/danascript) 
 - NPM
 - Heroicons
 - font-family: body: "Poppins", brand: "Krona One"
+- React Router v.5
 - UI Design
   https://www.behance.net/gallery/80515301/Wavey-beauty-UI?tracking_source=search_projects%7CWAVEY%20DESIGN
 
